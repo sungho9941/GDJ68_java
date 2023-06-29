@@ -2,7 +2,7 @@ package com.karina.study2;
 
 import java.util.Scanner;
 
-public class Stude_ex2 {
+public class Study_ex2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -31,10 +31,11 @@ public class Stude_ex2 {
 		if(id==yid && pw==ypw) {
 			System.out.println(yid + "" + ypw);
 			System.out.println("로그인성공");
-			
 			System.out.println("1. 정규직 2. 계약직 숫자입력");
 			contract=sc.nextInt();
 			System.out.println("급여 입력");
+			
+			
 			sal=sc.nextInt();
 			switch(contract) {
 			case 1:
