@@ -26,7 +26,7 @@ public class RifleMain {
 			rifle.shoot(b);					
 		}
 		else {
-			rifle.shoot2(1, "sss", null);;
+			rifle.shoot2(1, "sss", null);
 		}
 		
 		
